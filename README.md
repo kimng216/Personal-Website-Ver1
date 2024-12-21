@@ -19,9 +19,9 @@ project-folder/
 ├── templates/  
 │   └── index.html     
 └── static/  
-     └── css/   
-         ├── styles.css    
-         ├── cpp.png    
+│    └── css/   
+│        ├── styles.css    
+│        ├── cpp.png    
          ├── css.png    
          ├── csulb.png   
          ├── email-logo.png    
