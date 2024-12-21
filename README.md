@@ -19,25 +19,25 @@ project-folder/
 ├── templates/  
 │   └── index.html     
 └── static/  
-    └── css/   
-        ├── styles.css    
-        ├── cpp.png    
-        ├── css.png    
-        ├── csulb.png   
-        ├── email-logo.png    
-        ├── github-logo.png   
-        ├── github.css    
-        ├── haskell.png    
-        ├── html.png    
-        ├── leetcode-logo.png   
-        ├── leetcode.png      
-        ├── linkedin-logo.png   
-        ├── linkedin.png   
-        ├── person.jpg   
-        ├── python.png   
-        ├── r.png        
-        ├── resume.png   
-        └── sql.png     
+     └── css/   
+         ├── styles.css    
+         ├── cpp.png    
+         ├── css.png    
+         ├── csulb.png   
+         ├── email-logo.png    
+         ├── github-logo.png   
+         ├── github.css    
+         ├── haskell.png    
+         ├── html.png    
+         ├── leetcode-logo.png   
+         ├── leetcode.png      
+         ├── linkedin-logo.png   
+         ├── linkedin.png   
+         ├── person.jpg   
+         ├── python.png   
+         ├── r.png        
+         ├── resume.png   
+         └── sql.png     
 
 ## Prerequisites
 - Python 3.8+
