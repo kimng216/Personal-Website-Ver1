@@ -18,8 +18,8 @@ project-folder/
 ├── app.py         
 ├── templates/
 │   └── index.html     
-├── static/ 
-    ├── css/ 
+└── static/ 
+    └── css/ 
         ├── styles.css  
         ├── cpp.png  
         ├── css.png  
