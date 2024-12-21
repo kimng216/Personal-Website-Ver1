@@ -14,30 +14,30 @@ This is the initial version of my personal website, designed to showcase my prof
 **Custom Image Styling:** Each box includes an icon/image styled specifically for this website.
 
 ## File Structure
-project-folder/  
-├── app.py         
-├── templates/  
-│    └── index.html     
-└── static/  
-│    └── css/   
-│        ├── styles.css    
-│        ├── cpp.png    
-         ├── css.png    
-         ├── csulb.png   
-         ├── email-logo.png    
-         ├── github-logo.png   
-         ├── github.css    
-         ├── haskell.png    
-         ├── html.png    
-         ├── leetcode-logo.png   
-         ├── leetcode.png      
-         ├── linkedin-logo.png   
-         ├── linkedin.png   
-         ├── person.jpg   
-         ├── python.png   
-         ├── r.png        
-         ├── resume.png   
-         └── sql.png     
+project/  
+├─ app.py         
+├─ templates/  
+  │          └─ index.html     
+└─ static/  
+             └─ css/   
+                     ├─ styles.css    
+                     ├─ cpp.png    
+                     ├─ css.png    
+                     ├─ csulb.png   
+                     ├─ email-logo.png    
+                     ├─ github-logo.png   
+                     ├─ github.css    
+                     ├─ haskell.png    
+                     ├─ html.png    
+                     ├─ leetcode-logo.png   
+                     ├─ leetcode.png      
+                     ├─ linkedin-logo.png   
+                     ├─ linkedin.png   
+                     ├─ person.jpg   
+                     ├─ python.png   
+                     ├─ r.png        
+                     ├─ resume.png   
+                     └─ sql.png     
 
 ## Prerequisites
 - Python 3.8+
@@ -52,12 +52,12 @@ cd Personal-Website-Ver1
 pip install flask
 **Run the Flask server:** 
 python app.py
-**Open the website in your browser:**
-Local: http://127.0.0.1:5000
-**Customization:**
-Update the links in the index.html file to point to your personal profiles and resources:
-<a href="https://www.linkedin.com/in/kimnguyencs/" target="_blank">
-Replace the placeholder images in the static folder with your own icons.
+**Open the website in your browser:**   
+Local: http://127.0.0.1:5000   
+**Customization:**   
+Update the links in the index.html file to point to your personal profiles and resources:   
+<a href="https://www.linkedin.com/in/kimnguyencs/" target="_blank">   
+* *Replace the placeholder images in the static folder with your own icons.* *   
 
 ## License
 This project is open-source and available under the MIT License.
