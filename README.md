@@ -18,12 +18,12 @@ project-folder/
 ├── app.py         
 ├── templates/
 │   └── index.html     
-├── static/
-    ├── css/
+├── static/ 
+    ├── css/ 
         ├── styles.css  
         ├── cpp.png  
         ├── css.png  
-        ├── csulb.png
+        ├── csulb.png 
         ├── email-logo.png  
         ├── github-logo.png 
         ├── github.css  
@@ -31,13 +31,13 @@ project-folder/
         ├── html.png  
         ├── leetcode-logo.png 
         ├── leetcode.png    
-        ├── linkedin-logo.png
-        ├── linkedin.png
-        ├── person.jpg
-        ├── python.png
-        ├── r.png     
-        ├── resume.png
-        └── sql.png  
+        ├── linkedin-logo.png 
+        ├── linkedin.png 
+        ├── person.jpg 
+        ├── python.png 
+        ├── r.png      
+        ├── resume.png 
+        └── sql.png   
 
 ## Prerequisites
 - Python 3.8+
