@@ -1,0 +1,232 @@
+body {
+    font-family: Arial Narrow, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #275d93, #993496);
+    background-attachment: fixed;
+    background-size: 400% 400%;
+}
+
+a {
+    color: black; 
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.7),
+        0 0 10px rgba(255, 255, 255, 0.5);
+    transition: text-shadow 0.3s ease; 
+    position: relative;
+    z-index: 10;
+}
+
+a:hover {
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 1), 
+        0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 20%, #ffffff11 1px, transparent 1px),
+                radial-gradient(circle at 30% 80%, #ffffff11 1px, transparent 1px),
+                radial-gradient(circle at 80% 30%, #ffffff11 1px, transparent 1px),
+                radial-gradient(circle at 20% 50%, #ffffff11 1px, transparent 1px),
+                radial-gradient(circle at 70% 70%, #ffffff11 1px, transparent 1px);
+    background-size: 100px 100px;
+    z-index: 1;
+}
+
+h1 {
+    font-family: Gill Sans, sans-serif; 
+    font-size: 2.5em;
+    text-align: center; 
+    margin: 20px 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+                 0 0 10px rgba(255, 255, 255, 0.5);
+}
+h2 {
+    font-family: Gill Sans, sans-serif; 
+    font-size: 2.5em;
+    text-align: center; 
+    margin: 20px 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+                 0 0 10px rgba(255, 255, 255, 0.5);
+}
+h4 {
+    font-family: Gill Sans, sans-serif; 
+    font-size: 1.5em;
+    text-align: left; 
+    margin: 20px 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+                 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+p {
+    position: relative;
+    color: black;
+    z-index: 1; 
+    display: inline-block;
+    
+}
+
+p::before {
+    content: attr(data-text); 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: transparent; 
+    background: rgba(255, 255, 255, 0.1); 
+    z-index: -1; 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
+}
+
+p2 {
+    position: relative;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: Gill Sans, sans-serif;
+    font-size: 1.2em;
+}
+nav a:hover {
+    color: #ddd;
+}
+
+section {
+    padding: 50px;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+}
+
+.solid-button {
+    background-color: #15c7e6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#home h1 {
+    font-size: 7em; 
+    margin: 0;
+    padding: 20px 0;
+}
+
+#about img {
+    max-width: 100%; 
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+#about div {
+    flex: 1; 
+    padding-left: 20px; 
+}
+
+#about h2 {
+    margin-bottom: 10px;
+}
+
+#about p {
+    line-height: 1.6;
+}
+
+#about h4 {
+    line-height: 1;
+    margin: 0;
+    padding: 0px 0;
+}
+
+.solid-button:hover {
+    background-color: #12a6b3; 
+}
+
+.linkedin-button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.linkedin-button:hover {
+    background-color: #2980b9;
+}
+
+.sticky-header {
+    position: sticky;  
+    top: 0; 
+    background-color: #333; 
+    padding: 10px;  
+    z-index: 1000; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    width: 45%;
+}
+
+.logo {
+    max-width: 150px; 
+    height: auto;
+    transition: transform 0.2s; 
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333; 
+    text-align: center; 
+    padding: 15px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+    box-shadow: none;
+}
