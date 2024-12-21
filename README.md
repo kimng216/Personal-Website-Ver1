@@ -14,30 +14,30 @@ This is the initial version of my personal website, designed to showcase my prof
 **Custom Image Styling:** Each box includes an icon/image styled specifically for this website.
 
 ## File Structure
-project-folder/
+project-folder/  
 ├── app.py         
-├── templates/
+├── templates/  
 │   └── index.html     
-└── static/ 
-    └── css/ 
-        ├── styles.css  
-        ├── cpp.png  
-        ├── css.png  
-        ├── csulb.png 
-        ├── email-logo.png  
-        ├── github-logo.png 
-        ├── github.css  
-        ├── haskell.png  
-        ├── html.png  
-        ├── leetcode-logo.png 
-        ├── leetcode.png    
-        ├── linkedin-logo.png 
-        ├── linkedin.png 
-        ├── person.jpg 
-        ├── python.png 
-        ├── r.png      
-        ├── resume.png 
-        └── sql.png   
+└── static/  
+    └── css/   
+        ├── styles.css    
+        ├── cpp.png    
+        ├── css.png    
+        ├── csulb.png   
+        ├── email-logo.png    
+        ├── github-logo.png   
+        ├── github.css    
+        ├── haskell.png    
+        ├── html.png    
+        ├── leetcode-logo.png   
+        ├── leetcode.png      
+        ├── linkedin-logo.png   
+        ├── linkedin.png   
+        ├── person.jpg   
+        ├── python.png   
+        ├── r.png        
+        ├── resume.png   
+        └── sql.png     
 
 ## Prerequisites
 - Python 3.8+
