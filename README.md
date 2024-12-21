@@ -17,7 +17,7 @@ This is the initial version of my personal website, designed to showcase my prof
 project-folder/  
 ├── app.py         
 ├── templates/  
-│   └── index.html     
+│    └── index.html     
 └── static/  
 │    └── css/   
 │        ├── styles.css    
